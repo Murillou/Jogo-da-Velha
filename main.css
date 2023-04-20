@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -71,7 +72,7 @@ body{
 }
 
 #mensagem{
-  font-size: 27px
+  font-size: 27px;
   color: rgb(212, 212, 95);
 }
 
@@ -89,4 +90,36 @@ h1{
   text-align: center;
   color: yellowgreen;
   padding-bottom: 1%;
+}
+
+
+@media (max-width: 1255px){
+    #jogadores{
+      gap: 5rem
+    }
+}
+
+@media (max-width: 800px) {
+
+  #container{
+    min-height: 69vh;
+  }
+
+  .buttonMenu, .buttonMenuLigth{
+    display: flex;
+  }
+  
+  #tabuleiro{
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+  }
+
+  #jogadores{
+    padding-top: 5%;
+    gap: 0;
+  }
+
+  #mensagem{
+    padding-top: 3rem;
+  }
 }
