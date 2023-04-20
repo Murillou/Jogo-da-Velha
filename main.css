@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+#jogadores{
+  display: flex;
+  justify-content: space-around;
+  color: green;
+  gap: 40rem;
+  font-size: 35px;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80vh;
+  gap: 30px;
+}
+
+#tabuleiro{
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-template-rows: 10rem 10rem 10rem;
+  background-color: black;
+  gap: .5rem;
+}
+
+#tabuleiro .cells{
+  display: grid;
+  place-content: center;
+  background-color: #9ed1d4;
+}
+
+.lines{
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonMenu{
+  background-color: transparent;
+  color: #9ced87;
+  border-color: #9ced87;
+  padding: 2rem;
+  width: 10em;
+  font-size: 30px;
+}
+
+.buttonMenu:hover{
+  transform: scale(1.01);
+}
+
+.x{
+  color: rgb(0, 0, 255);
+  font-size: 100px;
+}
+
+.o{
+  color: rgb(255, 0, 0);
+  font-size: 100px;
+}
+
+.cells.vencedora{
+  background-color: green !important;
+}
+
+#mensagem{
+  font-size: 50px;
+  color: rgb(212, 212, 95);
+}
+
+.buttonMenuLigth{
+  background-color: transparent;
+  color: #ff0000;
+  border-color: #ff001a;
+  padding: 2rem;
+  width: 10em;
+  font-size: 30px;
+}
+
+
+h1{
+  text-align: center;
+  color: yellowgreen;
+  padding-bottom: 1%;
+}
