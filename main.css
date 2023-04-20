@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: space-around;
   color: green;
-  gap: 40rem;
+  gap: 28rem;
   font-size: 35px;
 }
 
@@ -47,8 +47,8 @@ body{
   background-color: transparent;
   color: #9ced87;
   border-color: #9ced87;
-  padding: 2rem;
-  width: 10em;
+  padding: 1rem;
+  width: 9em;
   font-size: 30px;
 }
 
@@ -71,7 +71,7 @@ body{
 }
 
 #mensagem{
-  font-size: 50px;
+  font-size: 27px
   color: rgb(212, 212, 95);
 }
 
@@ -79,8 +79,8 @@ body{
   background-color: transparent;
   color: #ff0000;
   border-color: #ff001a;
-  padding: 2rem;
-  width: 10em;
+  padding: 1rem;
+  width: 9em;
   font-size: 30px;
 }
 
