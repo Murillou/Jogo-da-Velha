@@ -26,6 +26,8 @@ function começar(){
   células.forEach( (celula) => { celula.classList.add('animation')})
 
   start.innerText = 'Restart'
+
+  start.addEventListener('click', reiniciar)
 }
 
 function reiniciar(){
